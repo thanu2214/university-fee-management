@@ -1,0 +1,9 @@
+# Netlify configuration (When frontend folder is set as repository base)
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

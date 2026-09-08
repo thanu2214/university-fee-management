@@ -1,0 +1,38 @@
+# Node dependencies & build outputs
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.vite/
+frontend/.vite/
+
+# Java & Maven
+target/
+backend/target/
+*.class
+*.jar
+*.war
+
+# Environment & local configurations
+.env
+.env.local
+.env.*.local
+frontend/.env
+frontend/.env.local
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
+.system_generated/
